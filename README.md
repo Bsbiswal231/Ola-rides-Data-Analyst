@@ -9,7 +9,16 @@
 ### Dataset Used:
 <a href="https://github.com/Bsbiswal231/Ola-rides-Data-Analyst/blob/main/Ola%20rides.csv"> Ola Rides Data </a>
 
-
 ### Key Analytical Focus Areas & KPIs:
 #### The project is structured around five critical areas of business performance, driving the dashboard design:
+##### 1. Overall:
+- Ride Volume Over Time, Booking Status Breakdown.
+##### 2. Vehicle Type:
+- Avg. Ride Distance, Avg. Customer Ratings by Vehicle Type.
+##### 3. Revenue:
+- Total Booking Value, Revenue by Payment Method, Top 5 Customers.
+##### 4. Cancellation:
+- Cancelled Rides Reasons (Customer & Driver).
+##### 5. Ratings:
+- Driver Ratings Distribution, Customer vs. Driver Ratings.
   
