@@ -1,4 +1,4 @@
-# Ola Rides Analysis Dashboard:(Excel, SQL & Power BI Project).
+# Ola Rides Analysis Dashboard:(Excel, SQL & Power BI).
 
 ### Project Overview:
 
