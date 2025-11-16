@@ -34,7 +34,7 @@
 - 6. Ratings: SELECT MAX(driver_ratings), MIN(driver_ratings) for specific vehicle types (e.g., 'Prime Sedan').
 - 7. Revenue: SELECT SUM(booking_value) AS Total_booking_values for successfully completed rides.
 - 8. Incomplete Rides: Listed incomplete rides and their associated reasons.
-###### SQL QUERIES: 
+##### SQL QUERIES: 
 <a href="https://github.com/Bsbiswal231/Ola-rides-Data-Analyst/blob/main/Sql-Queries.pdf"> Sql Queries </a>
 
 
