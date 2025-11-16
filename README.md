@@ -22,3 +22,34 @@
 ##### 5. Ratings:
 - Driver Ratings Distribution, Customer vs. Driver Ratings.
   
+### Data Preparation and Transformation (SQL):
+- A crucial step in this project was using SQL to clean, aggregate, and calculate key business metrics before loading the data into Power BI.
+  
+### Key SQL Operations Performed:
+- 1. Successful Bookings: Retrieve all records where booking_status='Success'.
+- 2. Vehicle Performance: SELECT vehicle_type, AVG(ride_distance_km) AS avg_ride_distance (to find average distance per vehicle type).
+- 3. Cancellation Analysis (Customer): SELECT SUM(cancelled_rides_by_customer) AS Total_rides_cancelled_by_customer.
+- 4. Top Customers: SELECT customer_id, COUNT(booking_id) AS Total_rides (Grouped and ordered to find Top 5).
+- 5. Cancellation Analysis (Driver): Calculated cancellations due to specific reasons (e.g., 'Personal & Car related issues').
+- 6. Ratings: SELECT MAX(driver_ratings), MIN(driver_ratings) for specific vehicle types (e.g., 'Prime Sedan').
+- 7. Revenue: SELECT SUM(booking_value) AS Total_booking_values for successfully completed rides.
+- 8. Incomplete Rides: Listed incomplete rides and their associated reasons.
+###### SQL QUERIES: 
+<a href="https://github.com/Bsbiswal231/Ola-rides-Data-Analyst/blob/main/Sql-Queries.pdf"> Sql Queries </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
